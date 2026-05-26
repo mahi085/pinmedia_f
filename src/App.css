@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Prevent horizontal sliding and menu cutting */
+html, body {
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
