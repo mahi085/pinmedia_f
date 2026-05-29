@@ -6,3 +6,13 @@ html, body {
   position: relative;
   width: 100%;
 }
+
+/* Hide scrollbar for slider while keeping functionality */
+.slider-no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.slider-no-scrollbar::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}

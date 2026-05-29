@@ -1,7 +1,4 @@
-// src/components/WhyChoose.jsx
-
-import React from "react";
-import { FaChartLine, FaLightbulb, FaBullseye, FaBolt, FaUserTie, FaMagic } from "react-icons/fa";
+import { FaChartLine, FaBullseye, FaBolt, FaUserTie, FaMagic } from "react-icons/fa";
 
 const features = [
   {

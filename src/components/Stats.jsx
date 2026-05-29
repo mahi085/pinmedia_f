@@ -24,12 +24,14 @@ const StatCard = ({ stat, index }) => {
       { threshold: 0.2 }
     );
 
-    if (cardRef.current) {
-      observer.observe(cardRef.current);
+    const card = cardRef.current;
+
+    if (card) {
+      observer.observe(card);
     }
 
     return () => {
-      if (cardRef.current) observer.unobserve(cardRef.current);
+      if (card) observer.unobserve(card);
     };
   }, [hasAnimated]);
 

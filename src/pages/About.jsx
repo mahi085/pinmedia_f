@@ -1,4 +1,3 @@
-import React from "react";
 import { FaTrophy, FaCheckCircle } from "react-icons/fa";
 
 const About = () => (
